@@ -1,0 +1,25 @@
+.form {
+  text-align: center;
+  margin: auto;
+  &__input {
+    max-width: 500px;
+    background-color: rgba(0,0,0,0.5)!important;
+    color: #fff!important;
+    margin: 20px auto;
+    text-align: left;
+  }
+}
+
+.sign-up-text {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.show {
+  &--true {
+    display: block;
+  }
+  &--false {
+    display: none;
+  }
+}

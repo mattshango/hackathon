@@ -1,0 +1,46 @@
+.add-photo {
+  width: 144px;
+  height: auto;
+  text-align: center;
+  background-image: url(../../assets/images/add_picture.png);
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: auto auto 20px auto;
+  display: table;
+  vertical-align: middle;
+  overflow: none;
+  position: relative;
+
+  &__container {
+    display: table-cell; 
+    vertical-align: middle;
+  }
+
+  &__container > input[type="file"] {
+    font-size: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  }
+}
+
+
+
+.photo {
+  &__image {
+    margin: auto;
+    width: 300px;
+    max-width: 100%;
+    height: 250px;
+    background-size: cover;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}

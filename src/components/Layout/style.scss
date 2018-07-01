@@ -1,0 +1,27 @@
+.layout {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url('../../assets/images/background.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.6);
+}
+
+.dashboard-h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.dashboard-h1--left {
+  text-align: left;
+  padding: 20px;
+}

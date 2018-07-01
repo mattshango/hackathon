@@ -1,0 +1,16 @@
+.weather {
+  text-align: center;
+
+  &__icon {
+    width: 75px;
+    height: auto;
+  }
+
+  &__degrees {
+    font-size: 20px;
+  }
+
+  &__city {
+    font-size: 20px;
+  }
+}

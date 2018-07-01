@@ -1,0 +1,25 @@
+.news {
+  text-align: center;
+  &__image {
+    padding: 10px;
+    max-width: 500px;
+    margin: auto;
+
+    & img {
+      width: 100%;
+    }
+  }
+  &__headline {
+    padding: 10px;
+    max-width: 600px;
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+  }
+  &__description {
+    margin: auto auto 50px auto;
+    max-width: 600px;
+    text-align: left;
+    padding: 10px;
+  }
+}

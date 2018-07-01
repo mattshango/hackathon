@@ -1,0 +1,25 @@
+.hackathon-card {
+  margin: auto auto 30px auto;
+  background-color: transparent!important;
+  border: 1px solid rgba(0,0,0,0.5)!important;
+  border-radius: 5px!important;
+  padding: 0;
+
+  &__body {
+    padding: 0!important;
+    background-color: rgba(0,0,0,0.2);
+  }
+
+  &__title {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 0.6rem;
+    background-color: rgba(244,167,66,0.5);
+    margin: 0;
+  }
+
+  &__text {
+    padding: 5px;
+    min-height: 200px;
+  }
+}

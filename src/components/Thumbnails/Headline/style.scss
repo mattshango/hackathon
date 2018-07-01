@@ -1,0 +1,11 @@
+.headline {
+  &__title {
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+  }
+
+  &__description {
+    padding: 5px 20px;
+  }
+}
