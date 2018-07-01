@@ -66,7 +66,7 @@ npm run prod
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/shango44/hackathon/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/shango44/hackathon/LICENSE) file for details
 
 ## Acknowledgments
 * rss-parser (https://github.com/bobby-brennan/rss-parser)
